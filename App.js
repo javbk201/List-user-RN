@@ -15,15 +15,15 @@ function MyStack(){
             <Stack.Screen
             name="UserList"
             component={UserList}
-            options={{tittle: 'Users List'}} />
+            options={{title: 'Users List'}} />
             <Stack.Screen
             name="UserDetailScreen"
             component={UserDetailScreen}
-            options={{tittle: 'Users Details'}}/>
+            options={{title: 'Users Details'}}/>
             <Stack.Screen
             name="CreateUserScreen"
             component={CreateUserScreen}
-            options={{tittle: 'Create Users'}}/>
+            options={{title: 'Create Users'}}/>
         </Stack.Navigator>
     );
 }
